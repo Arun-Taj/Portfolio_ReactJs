@@ -7,9 +7,9 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 '>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl sm:text-7xl  font-bold text-white  duration-200 hover:scale-105'>I'm a FullStack Developer</h2>
+                <h2 className='text-4xl sm:text-7xl  font-bold text-white  duration-200 hover:scale-105 pt-10'>Software Engineer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nostrum mollitia! Porro dolores repellat molestiae rerum quasi alias fugit cupiditate recusandae repudiandae repellendus sit quae, nesciunt mollitia accusamus adipisci architecto!
+                
                 </p>
                 <div>
                     <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
@@ -21,7 +21,15 @@ const Home = () => {
                 </div>
 
             </div>
-            <div>
+            {/* <div class="relative w-64 h-64 overflow-hidden rounded-lg shadow-lg">
+  <img class="w-full h-full object-cover" src={HeroImage} alt="Portfolio Image"/>
+  <div class="absolute inset-0 bg-black opacity-25"></div>
+  <div class="absolute inset-0 flex items-center justify-center">
+
+  </div>
+</div> */}
+
+            <div className=''>
                 <img src={HeroImage} alt="My Profile"  className='rounded-2xl mx-auto w-2/3 md:w-full duration-200 hover:scale-105'/>
             </div>
         </div>

@@ -9,9 +9,9 @@ const About = () => {
           <div className='pb-8'>
             <p className='className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>About</p>
           </div>
-          <p className='mt-4 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ratione ducimus veniam ipsa dolore, blanditiis cum quas officia iure nam repudiandae ipsum enim tenetur possimus accusantium iste quidem mollitia dolorem!</p>
+          <p className='mt-4 text-xl'>I am a Passionate software engineer with a knack for crafting elegant solutions to complex problems. With a solid foundation in computer science and years of hands-on experience, I thrive on turning ideas into reality through code. Whether it's building scalable web applications or designing efficient algorithms, I am dedicated to delivering high-quality software that exceeds expectations. Constantly learning and adapting to new technologies, I'm driven by a relentless pursuit of excellence in every project I undertake.</p>
           <br />
-          <p className='text-xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione asperiores nobis, accusamus officia esse corrupti natus quas, soluta libero nulla totam quis iusto doloremque deleniti aspernatur veritatis porro qui exercitationem.</p>
+          
         </div>
       </div>
 
