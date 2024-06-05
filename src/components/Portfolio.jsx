@@ -1,9 +1,8 @@
 import React from 'react'
 import work1 from '../assets/work1.png'
 import work2 from '../assets/work2.png'
-import Arun3 from '../assets/Arun3.jpg'
-import chat from '../assets/chat.jpeg'
 
+import portss1 from '../assets/portss1.png'
 
 const Portfolio = () => {
   const portfolios=[
