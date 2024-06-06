@@ -56,7 +56,25 @@ const SocialLinks = () => {
         </li>))}
         
       </ul>
+     
     </div>
+    <div className='lg:hidden fixed bottom-0 left-0 w-full bg-gray-500 rounded-md'>
+        <ul className='flex justify-evenly pl-4 pr-4'>
+          {links.map(({ id, child, href, download }) => (
+            <li key={id} className='flex justify-between items-center w-full h-14'>
+              <a
+                href={href}
+                className='flex w-full text-white'
+                download={download}
+                target='_blank'
+                rel='noreferrer'
+              >
+                {child}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
 
     </>
   )
